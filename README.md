@@ -4,13 +4,13 @@ org.octris.tmbundle
 Preface
 -------
 
-This is TextMate bundle is useful for development with the Octris framework.
+This TextMate bundle is useful for development with the Octris framework.
 
 Requirements
 ------------
 
 * TextMate (TextMate 2 is recommended)
-* Some included Tools require php 5.5
+* some included tools require php 5.5
 
 Copyright
 ---------
