@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>/**
+ * $3
+ *
+ * @octdoc	$1/$2
+ * @copyright	copyright © `date "+%Y"` by ${4:$TM_ORGANIZATION_NAME}`
+ * @author 	${5:$TM_AUTHOR_NAME} &lt;${6:$TM_AUTHOR_EMAIL}&gt;
+ */
+/**/
+
+$0</string>
+	<key>name</key>
+	<string>PHP Header</string>
+	<key>scope</key>
+	<string>source.php</string>
+	<key>tabTrigger</key>
+	<string>*h</string>
+	<key>uuid</key>
+	<string>AF18B5D1-47D1-4A0C-802D-7B0A851ABFFC</string>
+</dict>
+</plist>

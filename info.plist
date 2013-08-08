@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>mainMenu</key>
+	<dict>
+		<key>items</key>
+		<array>
+			<string>556F34CA-A8F0-4581-AD96-AE343CA640F6</string>
+			<string>------------------------------------</string>
+			<string>7B7D6C88-6D6F-4862-883E-30169A23C24E</string>
+		</array>
+		<key>submenus</key>
+		<dict>
+			<key>7B7D6C88-6D6F-4862-883E-30169A23C24E</key>
+			<dict>
+				<key>items</key>
+				<array>
+					<string>6D237F31-1088-4B49-899D-B1747DE37F4D</string>
+					<string>F4B03275-6F2A-4E44-A6CA-629F1990B9DB</string>
+					<string>4290A23E-D296-4769-8D98-3FD66542428D</string>
+					<string>AF18B5D1-47D1-4A0C-802D-7B0A851ABFFC</string>
+					<string>70C5ACE2-F1DC-4080-A704-FA31DEA6179A</string>
+					<string>9453233E-4713-4DDE-989B-A3ACB437F64D</string>
+				</array>
+				<key>name</key>
+				<string>Snippets</string>
+			</dict>
+		</dict>
+	</dict>
+	<key>name</key>
+	<string>Octris Framework</string>
+	<key>ordering</key>
+	<array>
+		<string>6D237F31-1088-4B49-899D-B1747DE37F4D</string>
+		<string>F4B03275-6F2A-4E44-A6CA-629F1990B9DB</string>
+		<string>4290A23E-D296-4769-8D98-3FD66542428D</string>
+		<string>AF18B5D1-47D1-4A0C-802D-7B0A851ABFFC</string>
+		<string>70C5ACE2-F1DC-4080-A704-FA31DEA6179A</string>
+		<string>9453233E-4713-4DDE-989B-A3ACB437F64D</string>
+	</array>
+	<key>uuid</key>
+	<string>A0930A95-9DFF-49A9-8E53-E8D6F9AA5A4E</string>
+</dict>
+</plist>
