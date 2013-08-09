@@ -6,7 +6,7 @@
 	<string>/**
  * $3
  *
- * @octdoc	$1/$2
+ * @octdoc  $1/$2
  */
 ${4:public} $5function ${2}($6)
 /**/
