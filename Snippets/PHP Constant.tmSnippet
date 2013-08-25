@@ -6,7 +6,7 @@
 	<string>/**
  * $3
  *
- * @octdoc  $1/$2
+ * @octdoc  d:$1/$2
  * @var     $4
  */
 const ${2}$5;

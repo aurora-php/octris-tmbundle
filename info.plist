@@ -9,9 +9,19 @@
 			<string>556F34CA-A8F0-4581-AD96-AE343CA640F6</string>
 			<string>------------------------------------</string>
 			<string>7B7D6C88-6D6F-4862-883E-30169A23C24E</string>
+			<string>0AECC5C1-DCAC-4DB2-9404-13718B8A848F</string>
 		</array>
 		<key>submenus</key>
 		<dict>
+			<key>0AECC5C1-DCAC-4DB2-9404-13718B8A848F</key>
+			<dict>
+				<key>items</key>
+				<array>
+					<string>F59E1F9A-186C-4C80-A1B5-57AAD0AA9F75</string>
+				</array>
+				<key>name</key>
+				<string>Helper</string>
+			</dict>
 			<key>7B7D6C88-6D6F-4862-883E-30169A23C24E</key>
 			<dict>
 				<key>items</key>
