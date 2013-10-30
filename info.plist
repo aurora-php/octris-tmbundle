@@ -2,6 +2,12 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>contactEmailRot13</key>
+	<string>unenyq@bpgevf.bet</string>
+	<key>contactName</key>
+	<string>Harald Lapp</string>
+	<key>description</key>
+	<string>Bundle for octris framework and related tools, http://www.octris.org/.</string>
 	<key>mainMenu</key>
 	<dict>
 		<key>items</key>
@@ -39,7 +45,7 @@
 		</dict>
 	</dict>
 	<key>name</key>
-	<string>Octris Framework</string>
+	<string>Octris</string>
 	<key>ordering</key>
 	<array>
 		<string>6D237F31-1088-4B49-899D-B1747DE37F4D</string>
