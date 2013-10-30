@@ -1,0 +1,3 @@
+[submodule "Support/php/libs/php-tmdialog"]
+	path = Support/php/libs/php-tmdialog
+	url = https://github.com/aurora/php-tmdialog
