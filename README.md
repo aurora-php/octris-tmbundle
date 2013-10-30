@@ -1,5 +1,5 @@
-org.octris.tmbundle
-===================
+Octris.tmbundle
+===============
 
 Preface
 -------
