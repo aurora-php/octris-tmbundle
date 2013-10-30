@@ -9,7 +9,7 @@
  * @octdoc  d:$1/$2
  * @var     $4
  */
-const $5;
+const ${2}$5;
 /**/
 $0
 </string>
