@@ -10,7 +10,7 @@
  * @copyright   copyright (c) `date "+%Y"` by ${4:$TM_ORGANIZATION_NAME}
  * @author      ${5:$TM_AUTHOR_NAME} &lt;${6:$TM_AUTHOR_EMAIL}&gt;
  */
-class ${2} $7
+${7|,abstract ,final |}class ${2} $8
 /**/
 {
     $0

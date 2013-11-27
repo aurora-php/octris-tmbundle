@@ -6,9 +6,9 @@
 	<string>/**
  * $3
  *
- * @octdoc  m:$1/$2
+ * @octdoc  m:$1/$2$4
  */
-${4:public} $5function ${2}($6)
+${5|public,private,protected|} ${6|,static |}function ${2}($7)
 /**/
 {
     $0

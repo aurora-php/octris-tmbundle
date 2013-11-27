@@ -9,7 +9,7 @@
  * @octdoc  p:$1/$2
  * @var     $4
  */
-${5:protected} ${2}$6;
+${5|protected,public,private|} ${2}$6;
 /**/
 $0
 </string>
