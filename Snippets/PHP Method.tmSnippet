@@ -8,8 +8,8 @@
  *
  * @octdoc  m:$1/$2$4
  */
-${5|,final ,abstract |}${6|public,private,protected|} ${7|,static |}function ${2}($8)${5/(abstract)|.*/${1:+;\n/**/\n}/}
-${5/abstract|(final|)/${1:+/**/\n{\n    }/}$0${5/abstract|(final|)/${1:+\n\}}/}</string>
+${5|,final ,abstract |}${6|public,private,protected|} ${7|,static |}function ${2}($8)${5/(abstract)|.*/${1:+;}/}
+/**/${5/abstract|(final|)/${1:+\n{}/}$0${5/abstract|(final|)/${1:+\n\}}/}</string>
 	<key>name</key>
 	<string>PHP Method</string>
 	<key>scope</key>
