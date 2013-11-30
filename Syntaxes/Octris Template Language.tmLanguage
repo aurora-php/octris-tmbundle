@@ -2,6 +2,8 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>comment</key>
+	<string>Octris Template Language Syntax: version 0.1</string>
 	<key>fileTypes</key>
 	<array/>
 	<key>name</key>
@@ -15,19 +17,37 @@
 			<string>keyword.control.octristpl</string>
 		</dict>
 		<dict>
+			<key>match</key>
+			<string>(%)([_a-z][_a-z0-9]*)</string>
+			<key>name</key>
+			<string>constant.language.octristpl</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>\b(_|escape|let)(?=\()</string>
+			<key>name</key>
+			<string>support.function.octristpl</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>(\$)([a-z_][a-z0-9_]*(:\$?[a-z_][a-z0-9_]*|))+</string>
+			<key>name</key>
+			<string>variable.other.octristpl</string>
+		</dict>
+		<dict>
 			<key>begin</key>
 			<string>"</string>
 			<key>end</key>
 			<string>"</string>
 			<key>name</key>
-			<string>string.quoted.double.untitled</string>
+			<string>string.quoted.double.octristpl</string>
 			<key>patterns</key>
 			<array>
 				<dict>
 					<key>match</key>
 					<string>\.</string>
 					<key>name</key>
-					<string>constant.character.escape.untitled</string>
+					<string>constant.character.escape.octristpl</string>
 				</dict>
 			</array>
 		</dict>
@@ -37,14 +57,14 @@
 			<key>end</key>
 			<string>'</string>
 			<key>name</key>
-			<string>string.quoted.single.untitled</string>
+			<string>string.quoted.single.octristpl</string>
 			<key>patterns</key>
 			<array>
 				<dict>
 					<key>match</key>
 					<string>\.</string>
 					<key>name</key>
-					<string>constant.character.escape.untitled</string>
+					<string>constant.character.escape.octristpl</string>
 				</dict>
 			</array>
 		</dict>
