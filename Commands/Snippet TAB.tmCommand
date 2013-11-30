@@ -5,18 +5,34 @@
 	<key>beforeRunningCommand</key>
 	<string>nop</string>
 	<key>command</key>
-	<string>printf "%$(($TM_TAB_SIZE - $TM_LINE_INDEX % $TM_TAB_SIZE))s"</string>
+	<string>#!/usr/bin/env bash
+[[ -f "${TM_SUPPORT_PATH}/lib/bash_init.sh" ]] &amp;&amp; . "${TM_SUPPORT_PATH}/lib/bash_init.sh"
+
+if [ "$TM_SOFT_TABS" = "YES" ]; then
+    printf "%$(($TM_TAB_SIZE - $TM_LINE_INDEX % $TM_TAB_SIZE))s"
+else
+    echo -en "\t"
+fi
+</string>
 	<key>input</key>
 	<string>none</string>
+	<key>inputFormat</key>
+	<string>text</string>
 	<key>keyEquivalent</key>
 	<string>^ </string>
 	<key>name</key>
 	<string>Snippet TAB</string>
-	<key>output</key>
-	<string>afterSelectedText</string>
+	<key>outputCaret</key>
+	<string>afterOutput</string>
+	<key>outputFormat</key>
+	<string>text</string>
+	<key>outputLocation</key>
+	<string>atCaret</string>
 	<key>scope</key>
 	<string>comment.block</string>
 	<key>uuid</key>
 	<string>F59E1F9A-186C-4C80-A1B5-57AAD0AA9F75</string>
+	<key>version</key>
+	<integer>2</integer>
 </dict>
 </plist>
