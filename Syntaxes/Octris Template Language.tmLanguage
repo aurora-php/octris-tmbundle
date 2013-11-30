@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>fileTypes</key>
+	<array/>
+	<key>name</key>
+	<string>Octris Template Language</string>
+	<key>patterns</key>
+	<array>
+		<dict>
+			<key>match</key>
+			<string>(#)(bench|cache|copy|cron|cut|end|if|foreach|loop|onchange|trigger)\b</string>
+			<key>name</key>
+			<string>keyword.control.octristpl</string>
+		</dict>
+		<dict>
+			<key>begin</key>
+			<string>"</string>
+			<key>end</key>
+			<string>"</string>
+			<key>name</key>
+			<string>string.quoted.double.untitled</string>
+			<key>patterns</key>
+			<array>
+				<dict>
+					<key>match</key>
+					<string>\.</string>
+					<key>name</key>
+					<string>constant.character.escape.untitled</string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>begin</key>
+			<string>'</string>
+			<key>end</key>
+			<string>'</string>
+			<key>name</key>
+			<string>string.quoted.single.untitled</string>
+			<key>patterns</key>
+			<array>
+				<dict>
+					<key>match</key>
+					<string>\.</string>
+					<key>name</key>
+					<string>constant.character.escape.untitled</string>
+				</dict>
+			</array>
+		</dict>
+	</array>
+	<key>scopeName</key>
+	<string>source.octristpl</string>
+	<key>uuid</key>
+	<string>6A947588-ACE9-4AE4-8D2B-A07506CEE66C</string>
+</dict>
+</plist>
