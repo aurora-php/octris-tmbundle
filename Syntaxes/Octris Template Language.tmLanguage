@@ -6,71 +6,102 @@
 	<string>Octris Template Language Syntax: version 0.1</string>
 	<key>fileTypes</key>
 	<array/>
+	<key>injectionSelector</key>
+	<string>string</string>
 	<key>name</key>
-	<string>Octris Template Language</string>
+	<string>HTML (Octris)</string>
 	<key>patterns</key>
 	<array>
 		<dict>
-			<key>match</key>
-			<string>(#)(bench|cache|copy|cron|cut|end|if|foreach|loop|onchange|trigger)\b</string>
-			<key>name</key>
-			<string>keyword.control.octristpl</string>
-		</dict>
-		<dict>
-			<key>match</key>
-			<string>(%)([_a-z][_a-z0-9]*)</string>
-			<key>name</key>
-			<string>constant.language.octristpl</string>
-		</dict>
-		<dict>
-			<key>match</key>
-			<string>\b(_|escape|let)(?=\()</string>
-			<key>name</key>
-			<string>support.function.octristpl</string>
-		</dict>
-		<dict>
-			<key>match</key>
-			<string>(\$)([a-z_][a-z0-9_]*(:\$?[a-z_][a-z0-9_]*|))+</string>
-			<key>name</key>
-			<string>variable.other.octristpl</string>
+			<key>include</key>
+			<string>text.html.basic</string>
 		</dict>
 		<dict>
 			<key>begin</key>
-			<string>"</string>
-			<key>end</key>
-			<string>"</string>
-			<key>name</key>
-			<string>string.quoted.double.octristpl</string>
-			<key>patterns</key>
-			<array>
+			<string>{{</string>
+			<key>captures</key>
+			<dict>
+				<key>1</key>
 				<dict>
-					<key>match</key>
-					<string>\.</string>
 					<key>name</key>
-					<string>constant.character.escape.octristpl</string>
+					<string>entity.other.octris.tagbraces</string>
 				</dict>
-			</array>
-		</dict>
-		<dict>
-			<key>begin</key>
-			<string>'</string>
+			</dict>
 			<key>end</key>
-			<string>'</string>
+			<string>}}</string>
 			<key>name</key>
-			<string>string.quoted.single.octristpl</string>
+			<string>meta.scope.octris.template.tag</string>
 			<key>patterns</key>
 			<array>
 				<dict>
 					<key>match</key>
-					<string>\.</string>
+					<string>\G(#)(bench|cache|copy|cron|cut|end|if|foreach|loop|onchange|trigger)\b</string>
 					<key>name</key>
-					<string>constant.character.escape.octristpl</string>
+					<string>keyword.control.octristpl</string>
+				</dict>
+				<dict>
+					<key>match</key>
+					<string>(%)([_a-z][_a-z0-9]*)</string>
+					<key>name</key>
+					<string>constant.language.octristpl</string>
+				</dict>
+				<dict>
+					<key>match</key>
+					<string>\b(_|escape|let)(?=\()</string>
+					<key>name</key>
+					<string>support.function.octristpl</string>
+				</dict>
+				<dict>
+					<key>match</key>
+					<string>\b([A-Za-z_]\w*)\b(?=\s*(?:[({"']|\[\[))</string>
+					<key>name</key>
+					<string>support.function.any-method.octristpl</string>
+				</dict>
+				<dict>
+					<key>match</key>
+					<string>(\$)([a-z_][a-z0-9_]*(:\$?[a-z_][a-z0-9_]*|))+</string>
+					<key>name</key>
+					<string>variable.other.octristpl</string>
+				</dict>
+				<dict>
+					<key>begin</key>
+					<string>"</string>
+					<key>end</key>
+					<string>"</string>
+					<key>name</key>
+					<string>string.quoted.double.octristpl</string>
+					<key>patterns</key>
+					<array>
+						<dict>
+							<key>match</key>
+							<string>\.</string>
+							<key>name</key>
+							<string>constant.character.escape.octristpl</string>
+						</dict>
+					</array>
+				</dict>
+				<dict>
+					<key>begin</key>
+					<string>'</string>
+					<key>end</key>
+					<string>'</string>
+					<key>name</key>
+					<string>string.quoted.single.octristpl</string>
+					<key>patterns</key>
+					<array>
+						<dict>
+							<key>match</key>
+							<string>\.</string>
+							<key>name</key>
+							<string>constant.character.escape.octristpl</string>
+						</dict>
+					</array>
 				</dict>
 			</array>
 		</dict>
 	</array>
 	<key>scopeName</key>
-	<string>source.octristpl</string>
+	<string>text.html.octris</string>
 	<key>uuid</key>
 	<string>6A947588-ACE9-4AE4-8D2B-A07506CEE66C</string>
 </dict>
