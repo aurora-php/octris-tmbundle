@@ -11,8 +11,7 @@
  */
 const ${2}$5;
 /**/
-$0
-</string>
+$0</string>
 	<key>name</key>
 	<string>PHP Constant</string>
 	<key>scope</key>
