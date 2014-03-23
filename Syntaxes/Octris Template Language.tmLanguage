@@ -41,13 +41,13 @@
 				</dict>
 				<dict>
 					<key>match</key>
-					<string>(%)([_a-z][_a-z0-9]*)</string>
+					<string>([_A-Z][_A-Z0-9]*)</string>
 					<key>name</key>
 					<string>constant.language.octristpl</string>
 				</dict>
 				<dict>
 					<key>match</key>
-					<string>\b(_|escape|let)(?=\()</string>
+					<string>\b(_|_d|ddump|dgettext|dprint|escape|gettext|let)(?=\()</string>
 					<key>name</key>
 					<string>support.function.octristpl</string>
 				</dict>
