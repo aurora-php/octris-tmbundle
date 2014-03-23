@@ -7,12 +7,11 @@
  * $3
  *
  * @octdoc  p:$1/$2
- * @var     $4
+ * @type    $4
  */
-${5|protected,public,private|} ${2}$6;
+${5|protected,public,private|} ${6|,static |}${2}$7;
 /**/
-$0
-</string>
+$0</string>
 	<key>name</key>
 	<string>PHP Property</string>
 	<key>scope</key>
