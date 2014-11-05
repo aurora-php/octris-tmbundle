@@ -1,0 +1,52 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "ad362462742c722b36d3dd7d25ceaf68",
+    "packages": [
+        {
+            "name": "octris/php-tmdialog",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/octris/php-tmdialog.git",
+                "reference": "9ac126ebf4367445980d71f48ec390df3e1da234"
+            },
+            "require": {
+                "php": ">=5.6.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Octris\\TMDialog\\": "libs/"
+                }
+            },
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Harald Lapp",
+                    "email": "harald@octris.org",
+                    "homepage": "http://www.octris.org/"
+                }
+            ],
+            "description": "PHP library for development with TextMate tmdialog.",
+            "homepage": "http://github.com/octris/php-tmdialog/",
+            "time": "2014-11-05 21:37:06"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "octris/php-tmdialog": 20
+    },
+    "prefer-stable": false,
+    "platform": {
+        "php": ">=5.6.0"
+    },
+    "platform-dev": []
+}
