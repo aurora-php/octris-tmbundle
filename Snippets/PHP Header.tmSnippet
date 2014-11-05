@@ -4,13 +4,11 @@
 <dict>
 	<key>content</key>
 	<string>/**
- * $3
+ * $1
  *
- * @octdoc      h:$1/$2
- * @copyright   copyright (c) `date "+%Y"` by ${4:$TM_ORGANIZATION_NAME}
- * @author      ${5:$TM_AUTHOR_NAME} &lt;${6:$TM_AUTHOR_EMAIL}&gt;
+ * @copyright   copyright (c) `date "+%Y"` by ${2:$TM_ORGANIZATION_NAME}
+ * @author      ${3:$TM_AUTHOR_NAME} &lt;${4:$TM_AUTHOR_EMAIL}&gt;
  */
-/**/
 
 $0</string>
 	<key>name</key>

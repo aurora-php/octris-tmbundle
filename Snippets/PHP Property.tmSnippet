@@ -4,12 +4,11 @@
 <dict>
 	<key>content</key>
 	<string>/**
- * $3
+ * $1
  *
- * @octdoc  p:$1/$2
- * @type    $4
+ * @type    $2
  */
-${5|protected,public,private|} ${6|,static |}${2}$7;
+${3|protected,public,private|} ${4|,static |}$5;
 /**/
 $0</string>
 	<key>name</key>

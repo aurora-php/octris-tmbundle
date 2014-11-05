@@ -4,12 +4,9 @@
 <dict>
 	<key>content</key>
 	<string>/**
- * $3
- *
- * @octdoc  f:$1/$2
+ * $1
  */
-function ${2}($4)
-/**/
+function $2($3)
 {
     $0
 }</string>
