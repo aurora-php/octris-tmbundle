@@ -15,7 +15,7 @@ Download the release package from the [bundle release page](https://github.com/o
 
 ## Troubleshooting
 
-Check if there are previous versions of this bundles installed in ...
+Check if there are previous versions of this bundle installed in ...
 
 * ~/Library/Application\ Support/Avian/Pristine\ Copy/Bundles/
 * ~/Library/Application\ Support/Avian/Bundles/
