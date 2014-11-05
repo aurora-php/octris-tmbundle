@@ -4,19 +4,19 @@
 <dict>
 	<key>content</key>
 	<string>/**
- * $3
+ * $1
  *
- * @octdoc  m:$1/$2$4
+ * @type    $2
  */
-${5|,final ,abstract |}${6|public,private,protected|} ${7|,static |}function ${2}($8)${5/(abstract)|.*/${1:+;}/}
-/**/${5/abstract|(final|)/${1:+\n{}/}$0${5/abstract|(final|)/${1:+\n\}}/}</string>
+${3|protected,public,private|} ${4|,static |}$5;
+$0</string>
 	<key>name</key>
-	<string>PHP Method</string>
+	<string>PHP Property</string>
 	<key>scope</key>
 	<string>source.php</string>
 	<key>tabTrigger</key>
-	<string>*m</string>
+	<string>*p</string>
 	<key>uuid</key>
-	<string>70C5ACE2-F1DC-4080-A704-FA31DEA6179A</string>
+	<string>9453233E-4713-4DDE-989B-A3ACB437F64D</string>
 </dict>
 </plist>

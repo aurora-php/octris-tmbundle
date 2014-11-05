@@ -4,22 +4,22 @@
 <dict>
 	<key>content</key>
 	<string>/**
- * $3
+ * $1
  *
- * @octdoc      h:$1/$2
- * @copyright   copyright (c) `date "+%Y"` by ${4:$TM_ORGANIZATION_NAME}
- * @author      ${5:$TM_AUTHOR_NAME} &lt;${6:$TM_AUTHOR_EMAIL}&gt;
+ * @copyright   copyright (c) `date "+%Y"` by ${2:$TM_ORGANIZATION_NAME}
+ * @author      ${3:$TM_AUTHOR_NAME} &lt;${4:$TM_AUTHOR_EMAIL}&gt;
  */
-/**/
-
-$0</string>
+${5|,abstract ,final |}class $6
+{
+    $0
+}</string>
 	<key>name</key>
-	<string>PHP Header</string>
+	<string>PHP Class</string>
 	<key>scope</key>
 	<string>source.php</string>
 	<key>tabTrigger</key>
-	<string>*h</string>
+	<string>*c</string>
 	<key>uuid</key>
-	<string>AF18B5D1-47D1-4A0C-802D-7B0A851ABFFC</string>
+	<string>6D237F31-1088-4B49-899D-B1747DE37F4D</string>
 </dict>
 </plist>
