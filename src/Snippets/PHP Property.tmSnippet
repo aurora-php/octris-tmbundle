@@ -9,7 +9,6 @@
  * @type    $2
  */
 ${3|protected,public,private|} ${4|,static |}$5;
-/**/
 $0</string>
 	<key>name</key>
 	<string>PHP Property</string>
