@@ -11,7 +11,7 @@
  */
 
 /**
- * Thaw octris state for debugging purpose.
+ * State debugger.
  *
  * @copyright   copyright (c) 2009-2014 by Harald Lapp
  * @author      Harald Lapp <harald@octris.org>
@@ -23,9 +23,9 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 $dia = new \Octris\TMDialog\Dialog();
 
-if ($dia->load('thaw', $params) === false) {
+if ($dia->load('state', $params) === false) {
     // dialog was not loaded
-    fputs(STDERR, "unable to load dialog 'thaw.nib'.\n");
+    fputs(STDERR, "unable to load dialog 'state.nib'.\n");
 
     exit(1);
 }
