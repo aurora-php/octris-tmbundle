@@ -20,6 +20,7 @@
 $params = array();
 
 require_once(__DIR__ . '/vendor/autoload.php');
+require_once(__DIR__ . '/libs/State.php');
 
 $dia = new \Octris\TMDialog\Dialog();
 
@@ -32,13 +33,12 @@ if ($dia->load('state', $params) === false) {
 
 $dia->registerAction('bindingAction', function ($model) use ($dia) {
     $secret = trim($model['thawSecret']);
+    $secret = ($secret != '' ? $secret : null);
     $text   = trim($model['thawState']);
-
-    \Octris\Core\App\State::setSecret(($secret != '' ? $secret : null));
 
     if ($text != '') {
         try {
-            $text = var_export(\Octris\Core\App\State::thaw($text), true);
+            $text = var_export(\Octris\TMBundle\State::thaw($text, $secret), true);
         } catch(Exception $e) {
             $text = $e->getMessage();
         }
