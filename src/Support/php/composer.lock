@@ -12,7 +12,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/octris/php-tmdialog.git",
-                "reference": "9699733865a128abb8f649a9d39b56f70c338751"
+                "reference": "7e48b42d942abe9714fab10141c9edad2d6dee0a"
             },
             "require": {
                 "php": ">=5.6.0"
@@ -35,7 +35,7 @@
             ],
             "description": "PHP library for development with TextMate tmdialog.",
             "homepage": "http://github.com/octris/php-tmdialog/",
-            "time": "2014-11-05 22:13:44"
+            "time": "2014-11-06 23:26:58"
         }
     ],
     "packages-dev": [],
