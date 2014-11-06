@@ -30,4 +30,23 @@ if ($dia->load('state', $params) === false) {
     exit(1);
 }
 
+$dia->registerAction('bindingAction', function ($model) use ($dia) {
+    $secret = trim($model['thawSecret']);
+    $text   = trim($model['thawState']);
+
+    \Octris\Core\App\State::setSecret(($secret != '' ? $secret : null));
+
+    if ($text != '') {
+        try {
+            $text = var_export(\Octris\Core\App\State::thaw($text), true);
+        } catch(Exception $e) {
+            $text = $e->getMessage();
+        }
+    }
+
+    $dia->update(array('thawValue' => $text));
+
+    return true;
+});
+
 $dia->run();
